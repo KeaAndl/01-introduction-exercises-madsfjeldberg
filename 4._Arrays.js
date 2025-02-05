@@ -18,6 +18,7 @@ const friends = [];
 // What a lonely array. Add at least 3 friend objects to it.
 
 friends.push("mr. robot", "elliot", "darlene");
+console.log(friends);
 
 // --------------------------------------
 // Exercise 3 - Get the index of first occurance of that value.
@@ -37,7 +38,7 @@ const diet = ["tomato", "cucumber", "rocket"];
 
 // You are a programmer. In one line (one statement) insert hamburger, soda and pizza between the elements cucumber and rocket
 
-// (index to start at, how many to remove, what to insert)
+// (index to start at (2), how many to remove (0), what to insert [list])
 diet.splice(2, 0, "hamburger", "soda", "pizza");
 
 // --------------------------------------

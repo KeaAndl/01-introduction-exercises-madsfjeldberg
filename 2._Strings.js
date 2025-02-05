@@ -8,6 +8,7 @@ const numberTwo = "2.30";
 // you cannot touch line 1 neither line 2
 
 console.log(parseFloat(numberOne) + parseFloat(numberTwo));
+
 // --------------------------------------
 // Exercise 4 - Add the numbers and the total with 2 decimals
 
@@ -18,6 +19,7 @@ result = (parseFloat(anotherNumberOne) + parseFloat(anotherNumberTwo)).toFixed(
   2
 );
 console.log(result);
+
 // --------------------------------------
 // Exercise 5 - Decimals and average
 
@@ -31,6 +33,7 @@ let total = one + two + three;
 let average = total / 3;
 
 console.log(average.toFixed(5));
+
 // --------------------------------------
 // Exercise 6 - Get the character by index
 
@@ -47,4 +50,7 @@ const fact = "You are learning javascript!";
 // capitalize the J in Javascript
 
 console.log(fact.replace("j", "J"));
+// or if string contains multiple j's:
+console.log(fact.replace("javascript", "Javascript"));
+
 // --------------------------------------
